@@ -32,3 +32,28 @@
 	color: var(--white);
 	background-color: var(--primary-ligth);
 }
+
+.arrow {
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.arrowDown {
+	transition: all 0.5s;
+	transform: rotate(90deg);
+}
+
+.arrowRight {
+	transition: all 0.5s;
+	transform: rotate(0deg);
+}
+
+.primary svg,
+.ghost:hover svg {
+	fill: var(--white);
+}
+
+.ghost svg {
+	fill: var(--primary);
+}
