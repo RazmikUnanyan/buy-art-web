@@ -10,6 +10,7 @@ const Button = ({arrow = "none", appearance, children, ...props}: ButtonProps): 
             className={cn(style.button, {
                 [style.primary]: appearance === "primary",
                 [style.ghost]: appearance === "ghost",
+                [style.important]: appearance === "important",
             })}
             {...props}
         >

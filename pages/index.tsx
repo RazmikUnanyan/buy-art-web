@@ -23,26 +23,21 @@ export default function Home(): JSX.Element {
                 Подробнее...
             </Button>
             <Htag tag="h2">Новая коллекция</Htag>
-            <Button onClick={() => setOpen(prev => !prev)} appearance="ghost" arrow={open ? "down" : "right"}>
-                Открыть магазин
+            <Button onClick={() => setOpen(prev => !prev)} appearance="ghost">
+                Открыть
+            </Button>
+            <Htag tag="h2">Новая коллекция</Htag>
+            <Button appearance="important">
+                Удалить
             </Button>
             <P size="s">
-                Полный курс по современному
-                Frontend на React и
-                Next.js. Всё от CSS Grid и
-                TypeScript до React Hooks и SSR
+                Сайт www.facebook.com не позволяет установить соединение.
             </P>
             <P size="m">
-                Полный курс по современному
-                Frontend на React и
-                Next.js. Всё от CSS Grid и
-                TypeScript до React Hooks и SSR
+                Сайт www.facebook.com не позволяет установить соединение.
             </P>
             <P size="l">
-                Полный курс по современному
-                Frontend на React и
-                Next.js. Всё от CSS Grid и
-                TypeScript до React Hooks и SSR
+                Сайт www.facebook.com не позволяет установить соединение.
             </P>
         </div>
     )

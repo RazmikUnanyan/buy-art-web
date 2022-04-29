@@ -2,7 +2,8 @@
 	display: inline-block;
 
 	box-sizing: border-box;
-	padding: 22px 50px;
+	border-radius: 3px;
+	padding: 8px 18px;
 
 	cursor: pointer;
 	transition: all 0.5s;
@@ -33,6 +34,17 @@
 	background-color: var(--primary-ligth);
 }
 
+.important {
+	color: var(--secondary);
+	border: 1px solid var(--secondary);
+	background-color: var(--white);
+}
+
+.important:hover {
+	color: var(--white);
+	background-color: var(--secondary);
+}
+
 .arrow {
 	display: inline-block;
 
@@ -50,7 +62,8 @@
 }
 
 .primary svg,
-.ghost:hover svg {
+.ghost:hover svg,
+.important:hover svg {
 	fill: var(--white);
 }
 
