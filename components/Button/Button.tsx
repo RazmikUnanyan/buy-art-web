@@ -17,8 +17,8 @@ const Button = ({arrow = "none", appearance, children, ...props}: ButtonProps): 
             {children}
             {arrow !== "none" && (
                 <span className={cn(style.arrow, {
-                    [style.arrowRight]: arrow === "right",
-                    [style.arrowDown]: arrow === "down",
+                    [style.right]: arrow === "right",
+                    [style.down]: arrow === "down",
                 })}><ArrowIcon /></span>
             )}
         </button>

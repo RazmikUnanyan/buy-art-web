@@ -2,7 +2,6 @@
 	display: inline-block;
 
 	box-sizing: border-box;
-	border-radius: 3px;
 	padding: 8px 18px;
 
 	cursor: pointer;
@@ -10,6 +9,7 @@
 	text-align: center;
 
 	border: none;
+	border-radius: 3px;
 
 	font-size: 17px;
 }
@@ -51,22 +51,22 @@
 	margin-left: 10px;
 }
 
-.arrowDown {
+.down {
 	transition: all 0.5s;
 	transform: rotate(90deg);
 }
 
-.arrowRight {
+.right {
 	transition: all 0.5s;
 	transform: rotate(0deg);
+}
+
+.ghost svg {
+	fill: var(--primary);
 }
 
 .primary svg,
 .ghost:hover svg,
 .important:hover svg {
 	fill: var(--white);
-}
-
-.ghost svg {
-	fill: var(--primary);
 }
