@@ -19,7 +19,10 @@ a {
 }
 
 :root {
+	--main-theme: #F1F3FC;
 	--black: #000;
+	--gray: #BFBFBF;
+	--green: #30E34D;
 	--white: #FFF;
 	--primary: #0721B1;
 	--primary-ligth: #2140F8;

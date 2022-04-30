@@ -1,0 +1,9 @@
+.filled {
+	display: inline-block;
+
+	cursor: pointer;
+}
+
+.active {
+	fill: var(--primary);
+}
