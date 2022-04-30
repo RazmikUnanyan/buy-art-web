@@ -21,11 +21,12 @@ a {
 :root {
 	--main-theme: #F1F3FC;
 	--black: #000;
+	--black-ligth: #4A4A4A;
 	--gray: #BFBFBF;
 	--green: #30E34D;
 	--white: #FFF;
-	--primary: #0721B1;
-	--primary-ligth: #2140F8;
+	--primary: #778AF6;
+	--primary-ligth: #C5CEFF;
 	--secondary: #EA1010;
 	--font-family: "Quicksand", sans-serif;
 }

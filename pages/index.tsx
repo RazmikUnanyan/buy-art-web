@@ -1,13 +1,15 @@
-import {withLayout} from "../layout/Layout";
+import Home from "../components/Home/Home";
+import React from "react";
+import { withLayout } from "../layout/Layout";
 
-
-function Home(): JSX.Element {
+function Main({}): JSX.Element {
     return (
-        <div>
-
-        </div>
+        <Home imgUrls={[]} title="Просто купи, что нравится"
+              description="Пакупка и продажа элементов искуство"
+              redirectToShop={() => {
+              }}
+        />
     )
 }
 
-export default withLayout(Home)
-
+export default withLayout(Main)
